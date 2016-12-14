@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+  	<header>
+  		<nav class="be-red white large-padding">
+  			<ul class="no-list row center-xs middle-xs">
+          <li class="col-md"><h1 class="no-margin" id="logo">Blog Facilito</h1></li>
+  				<li class="col-md"><%= link_to "INICIO", root_path %></li>
+  				<li class="col-md">DISENO</li>
+  				<li class="col-md">PROGRAMACION</li>
+  				<li class="col-md">TECNOLOGIA</li>
+  			</ul>
+  		</nav>
+  	</header>
+
+    <%= yield %>
+
+  </body>
+</html>
