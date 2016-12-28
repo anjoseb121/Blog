@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="Pi">
+  <component name="PublishConfigData" autoUpload="Always" serverName="tony-ub">
     <serverData>
-      <paths name="Pi">
+      <paths name="tony-ub">
         <serverdata>
           <mappings>
             <mapping deploy="/railsapp/Blog" local="$PROJECT_DIR$" web="/" />
