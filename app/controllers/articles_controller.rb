@@ -13,6 +13,7 @@ class ArticlesController < ApplicationController
     # Va a encontrar un registro por su id
     #@article = Article.find(params[:id])
     @article.update_visits_count
+    @comment = Comment.new
   end
 
   #GET /articles/new
