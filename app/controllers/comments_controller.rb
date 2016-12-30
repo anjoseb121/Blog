@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
   before_action :set_comment, only: [:update, :destroy]
-  before_action :set_article, only: [:show, :edit, :update, :destroy]
+  before_action :set_article, only: [:create, :show, :edit, :update, :destroy]
   before_action :authenticate_user!
 =begin
   # GET /comments
@@ -14,16 +14,17 @@ class CommentsController < ApplicationController
   def show
   end
 
-  # GET /comments/new
   def new
     @comment = Comment.new
   end
-
 
   # GET /comments/1/edit
   def edit
   end
 =end
+  def new
+    @comment = Comment.new
+  end
 
   # POST /comments
   # POST /comments.json
