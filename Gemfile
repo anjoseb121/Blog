@@ -43,6 +43,11 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# Autenticacion de usuarios
+# Auth users
 gem 'devise'
+# Turbolink for smth that i dont know yet
 gem 'jquery-turbolinks'
+# Images but this shit isnt working
+gem "paperclip"
+# Debuggin by jicardu
+gem "byebug"
