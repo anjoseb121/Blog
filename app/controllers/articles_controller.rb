@@ -19,6 +19,7 @@ class ArticlesController < ApplicationController
   #GET /articles/new
   def new
     @article = Article.new
+    @categories = Category.all
   end
 
   #POST /articles
