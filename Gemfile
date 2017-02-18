@@ -49,5 +49,3 @@ gem 'devise'
 gem 'jquery-turbolinks'
 # Images but this shit isnt working
 gem "paperclip"
-# Debuggin by jicardu
-gem "byebug"
