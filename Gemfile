@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -49,3 +49,5 @@ gem 'devise'
 gem 'jquery-turbolinks'
 # Images but this shit isnt working
 gem "paperclip"
+# Gemfile
+gem 'aasm'
