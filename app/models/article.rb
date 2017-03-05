@@ -20,7 +20,7 @@ class Article < ApplicationRecord
   # Class method, "publicados" to diff from aasm
   scope :publicados, ->{ where(state: "published") }
 
-  scope :ultimos, ->{ order("created_at DESC").limit(10) }
+  scope :ultimos, ->{ order("created_at DESC") }
 
   # Custom setter
   def categories=(value)
