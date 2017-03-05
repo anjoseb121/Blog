@@ -52,3 +52,4 @@ gem "paperclip"
 # Gemfile
 gem 'aasm'
 gem 'will_paginate'
+gem 'sanitize'
